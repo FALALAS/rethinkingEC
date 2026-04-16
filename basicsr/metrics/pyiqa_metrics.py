@@ -1,5 +1,6 @@
-# 将以下代码追加到 pyiqa_metrics.py 中
-# 注意：顶部需要保留原有的 import torch, numpy as np, METRIC_REGISTRY 和 _pyiqa_metric_models 字典
+import torch
+import numpy as np
+from basicsr.utils.registry import METRIC_REGISTRY
 
 @METRIC_REGISTRY.register()
 def calculate_pyiqa_psnr(img, img2, crop_border=0, input_order='HWC', test_y_channel=False, **kwargs):
