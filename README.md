@@ -4,15 +4,13 @@
 
 This repository is the official implementation  of "Rethinking Exposure Correction for Spatially Non-uniform Degradation"
 
-[Ao Li](https://liaosite.github.io/)<sup>1#</sup>,  Jiawei Sun<sup>1#</sup>, Le Dong<sup>1*</sup>, Zhenyu Wang<sup>2</sup>, [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/index_en.htm)<sup>1</sup>
+[Ao Li](https://liaosite.github.io/)<sup>1</sup>,  Jiawei Sun<sup>1</sup>, Le Dong<sup>1*</sup>, Zhenyu Wang<sup>2</sup>, Mingtao Feng<sup>1</sup>, [Weisheng Dong](https://see.xidian.edu.cn/faculty/wsdong/index_en.htm)<sup>1</sup>
 
 <sup>1</sup>School of Artificial Intelligence, Xidian University
 
 <sup>2</sup>Hangzhou Institute of technology, Xidian University
 
 *: Corresponding Author.
-
-#: Equal Contribution.
 
 ## Setup
 * Install the conda environment
@@ -69,7 +67,7 @@ Please cite the following paper if you feel our work useful to your research:
 ```bibtex
 @misc{li2026rethinkingexposurecorrectionspatially,
       title={Rethinking Exposure Correction for Spatially Non-uniform Degradation}, 
-      author={Ao Li and Jiawei Sun and Le Dong and Zhenyu Wang and Weisheng Dong},
+      author={Ao Li and Jiawei Sun and Le Dong and Zhenyu Wang and Mingtao Feng and Weisheng Dong},
       year={2026},
       eprint={2604.04136},
       archivePrefix={arXiv},
